@@ -18,7 +18,7 @@ const APP_SHELL = [
 const APP_SHELL_UNMUTABLE = [
   "https://fonts.googleapis.com/css?family=Quicksand:300,400",
   "https://fonts.googleapis.com/css?family=Lato:400,300",
-  "vendor/fontawesome-free-5.15.4-web/css/all.min.css",
+  "https://use.fontawesome.com/releases/v5.3.1/css/all.css",
   "css/animate.css",
   "js/libs/jquery.js",
 ];
