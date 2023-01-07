@@ -14,6 +14,8 @@ const APP_SHELL = [
   "js/app.js",
 ];
 
+const APP_SHELL_DYNAMIC = [];
+
 const APP_SHELL_UNMUTABLE = [
   "https://fonts.googleapis.com/css?family=Quicksand:300,400",
   "https://fonts.googleapis.com/css?family=Lato:400,300",
@@ -28,7 +30,8 @@ self.addEventListener("install", (e) => {
     .then((cache) => cache.addAll(APP_SHELL));
 
   const cacheDynamic = caches
-  .open(DYNAMIC_CACHE);
+  .open(DYNAMIC_CACHE)
+  .then((cache) => cache.addAll(APP_SHELL_DYNAMIC));
 
   const cacheUnmutable = caches
     .open(UNMUTABLE_CACHE)
