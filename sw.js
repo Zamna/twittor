@@ -12,7 +12,7 @@ const APP_SHELL = [
   "img/avatars/thor.jpg",
   "img/avatars/wolverine.jpg",
   "js/app.js",
-  "vendor/fontawesome-free-5.15.4-web/all.min.css",
+  "vendor/fontawesome-free-5.15.4-web/all.css",
 ];
 
 // const APP_SHELL_DYNAMIC = [];
