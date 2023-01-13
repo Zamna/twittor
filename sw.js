@@ -3,7 +3,6 @@ const DYNAMIC_CACHE = "dynamic-v1";
 const UNMUTABLE_CACHE = "unmutable-v1";
 
 const APP_SHELL = [
-  "/",
   "index.html",
   "css/style.css",
   "img/favicon.ico",
@@ -30,9 +29,9 @@ self.addEventListener("install", (e) => {
     .open(STATIC_CACHE)
     .then((cache) => cache.addAll(APP_SHELL));
 
-  const cacheDynamic = caches
-  .open(DYNAMIC_CACHE)
-  .then((cache) => cache.addAll(APP_SHELL_DYNAMIC));
+  // const cacheDynamic = caches
+  // .open(DYNAMIC_CACHE)
+  // .then((cache) => cache.addAll(APP_SHELL_DYNAMIC));
 
   const cacheUnmutable = caches
     .open(UNMUTABLE_CACHE)
