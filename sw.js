@@ -1,5 +1,5 @@
 const STATIC_CACHE = "static-v1";
-const DYNAMIC_CACHE = "dynamic-v1";
+// const DYNAMIC_CACHE = "dynamic-v1";
 const UNMUTABLE_CACHE = "unmutable-v1";
 
 const APP_SHELL = [
@@ -14,7 +14,7 @@ const APP_SHELL = [
   "js/app.js",
 ];
 
-const APP_SHELL_DYNAMIC = [];
+// const APP_SHELL_DYNAMIC = [];
 
 const APP_SHELL_UNMUTABLE = [
   "https://fonts.googleapis.com/css?family=Quicksand:300,400",
